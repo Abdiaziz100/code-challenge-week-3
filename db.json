@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "title": "Learning JavaScript",
+      "id": "1",
+      "image": "https://www.w3docs.com/uploads/media/default/0001/05/4482fe09d95a0be765154b9cefff5e07f7fc32ff.png",
+      "description": "JavaScript is a powerful and flexible language used to build interactive websites."
+    },
+    {
+      "title": " Learning CSS Tricks",
+      "id": "2",
+      "image": "https://www.w3docs.com/uploads/media/default/0001/05/6d07a36ebe6d55273b39440f2391f1d7e6d4092a.png",
+      "description": "CSS makes your web pages beautiful with colors, layouts, and animations."
+    },
+    {
+      "title": " Learning HTML Basics",
+      "id": "3",
+      "image": "https://media.licdn.com/dms/image/v2/D4E12AQEAnt8s_XKS0Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1720990891816?e=2147483647&v=beta&t=s3YFb3TxwGnet7ZuX0qAaLlnrxhAF7aJi7YHJv0VqJU",
+      "description": "HTML gives structure to your web pages and is the foundation of the web."
+    },
+    {
+      "id": "f354",
+      "title": "Learning React",
+      "image": "https://www.tatvasoft.com/blog/wp-content/uploads/2022/07/Why-Use-React-1280x720.jpg",
+      "description": "React is javascript library."
+    }
+  ]
+}

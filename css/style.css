@@ -1,0 +1,124 @@
+/* Reset some defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+  background-color: #2e0505;
+  color: #140404;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2em;
+  color: #e0e3e6;
+}
+h2{
+    color: #17eee3;
+}
+
+/* Layout for main content */
+main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+/* Post list section */
+#post-list {
+  background-color: #072e27;
+  color: #17eee3;
+  border: 5px solid #e6d8e4;
+  padding: 15px;
+  height: fit-content;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#post-list:hover{
+    color: #000000;
+   
+}
+
+
+#post-list div {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#post-list div:hover {
+  background-color: #e3f2fd;
+}
+
+/* Post details */
+#post-detail {
+  background-color: #0c0101;
+  color: #17eee3;
+  border: 5px solid #cfd2e9;
+  padding: 15px;
+  min-height: 350px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#post-detail img {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+/* Form styling */
+form {
+  background-color: #080101;
+  color: #17eee3;
+  padding: 15px;
+  border: 5px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: flex;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #000000;
+  border-color: #17eee3;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #803939;
+}
+
+/* Optional: Hide the edit form by default */
+.hidden {
+  display: none;
+}
